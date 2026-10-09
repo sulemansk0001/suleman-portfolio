@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="socialBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+    <linearGradient id="brandBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="url(#socialBg)"/>
+
+  <!-- Social Feed & Calendar Dashboard -->
+  <g transform="translate(60, 45)">
+    <!-- Container -->
+    <rect width="480" height="270" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" filter="drop-shadow(0 10px 15px rgba(0,0,0,0.05))"/>
+
+    <!-- Header bar -->
+    <rect width="480" height="46" rx="12" fill="#F8FAFC"/>
+    <rect x="20" y="14" width="20" height="20" rx="4" fill="#0A66C2"/>
+    <text x="25" y="29" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">in</text>
+    <rect x="46" y="14" width="20" height="20" rx="4" fill="#1877F2"/>
+    <text x="52" y="29" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">f</text>
+    <text x="76" y="28" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#1E293B">Company Social Media &amp; Content Calendar</text>
+
+    <!-- Social Post Preview Card (Left side) -->
+    <g transform="translate(24, 62)">
+      <rect width="240" height="186" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+      <!-- Profile row -->
+      <circle cx="28" cy="28" r="14" fill="#DBEAFE"/>
+      <text x="28" y="32" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#2563EB" text-anchor="middle">ANI</text>
+      <text x="50" y="24" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#1E293B">Al Naya International LLC</text>
+      <text x="50" y="37" font-family="Inter, sans-serif" font-size="8" fill="#64748B">Commercial Updates • 4.5 mo Cadence</text>
+
+      <!-- Post Copy Lines -->
+      <rect x="16" y="52" width="208" height="6" rx="2" fill="#334155"/>
+      <rect x="16" y="64" width="180" height="6" rx="2" fill="#64748B"/>
+
+      <!-- Image Graphic Box in Post -->
+      <rect x="16" y="78" width="208" height="74" rx="6" fill="url(#brandBlue)"/>
+      <text x="120" y="112" font-family="Inter, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">Strategic Partnership Insights</text>
+      <text x="120" y="128" font-family="Inter, sans-serif" font-size="9" fill="#E0F2FE" text-anchor="middle">#B2B #InternationalTrade #Marketing</text>
+
+      <!-- Reactions -->
+      <circle cx="26" cy="166" r="6" fill="#3B82F6"/>
+      <circle cx="36" cy="166" r="6" fill="#10B981"/>
+      <text x="48" y="169" font-family="Inter, sans-serif" font-size="8" fill="#64748B">Consistent Engagement &amp; Reach</text>
+    </g>
+
+    <!-- Content Schedule Matrix (Right side) -->
+    <g transform="translate(280, 62)">
+      <rect width="176" height="186" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+      <text x="16" y="24" font-family="Inter, sans-serif" font-size="11" font-weight="700" fill="#1E293B">Content Schedule</text>
+      
+      <!-- Monday -->
+      <rect x="16" y="38" width="144" height="28" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <rect x="22" y="44" width="24" height="16" rx="4" fill="#EEF2FF"/>
+      <text x="34" y="56" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#2563EB" text-anchor="middle">MON</text>
+      <text x="54" y="56" font-family="Inter, sans-serif" font-size="9" fill="#1E293B">Industry Insight Post</text>
+
+      <!-- Wednesday -->
+      <rect x="16" y="72" width="144" height="28" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <rect x="22" y="78" width="24" height="16" rx="4" fill="#FEF3C7"/>
+      <text x="34" y="90" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#D97706" text-anchor="middle">WED</text>
+      <text x="54" y="90" font-family="Inter, sans-serif" font-size="9" fill="#1E293B">Company Capabilities</text>
+
+      <!-- Friday -->
+      <rect x="16" y="106" width="144" height="28" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <rect x="22" y="112" width="24" height="16" rx="4" fill="#DCFCE7"/>
+      <text x="34" y="124" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#16A34A" text-anchor="middle">FRI</text>
+      <text x="54" y="124" font-family="Inter, sans-serif" font-size="9" fill="#1E293B">Weekly Highlights</text>
+
+      <!-- Bottom badge -->
+      <rect x="16" y="144" width="144" height="30" rx="6" fill="#F1F5F9"/>
+      <text x="88" y="162" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="#475569" text-anchor="middle">LinkedIn &amp; FB Pages</text>
+    </g>
+  </g>
+</svg>

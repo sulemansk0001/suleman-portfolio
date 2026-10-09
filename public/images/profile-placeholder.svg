@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#DBEAFE"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with subtle border -->
+  <rect width="400" height="400" rx="32" fill="url(#avatarGrad)"/>
+  <rect x="2" y="2" width="396" height="396" rx="30" fill="none" stroke="#BFDBFE" stroke-width="3"/>
+  
+  <!-- Subtle decorative rings -->
+  <circle cx="200" cy="175" r="120" fill="none" stroke="#93C5FD" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.6"/>
+  <circle cx="200" cy="175" r="95" fill="none" stroke="#60A5FA" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Stylized Person Avatar -->
+  <g transform="translate(0, 5)">
+    <!-- Head -->
+    <circle cx="200" cy="140" r="50" fill="url(#accentGrad)"/>
+    <!-- Shoulders / Torso -->
+    <path d="M 120 270 C 120 205, 280 205, 280 270 Z" fill="url(#accentGrad)"/>
+  </g>
+
+  <!-- Professional Badge -->
+  <rect x="70" y="305" width="260" height="48" rx="24" fill="#FFFFFF" stroke="#93C5FD" stroke-width="2" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.06))"/>
+  <circle cx="95" cy="329" r="8" fill="#10B981"/>
+  <text x="115" y="334" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#1E2022">Suleman Shaikh</text>
+  <text x="235" y="334" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#6B7280">• DM Exec</text>
+
+  <!-- Replace Photo Tip Banner at bottom -->
+  <text x="200" y="380" font-family="Inter, sans-serif" font-size="11" font-weight="500" fill="#64748B" text-anchor="middle">
+    Replace: /public/images/profile-placeholder.svg
+  </text>
+</svg>

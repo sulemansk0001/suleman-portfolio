@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="leadBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+    <linearGradient id="funnelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="url(#leadBg)"/>
+
+  <!-- Lead Funnel & Data Table Dashboard Card -->
+  <g transform="translate(60, 45)">
+    <!-- Main Board -->
+    <rect width="480" height="270" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" filter="drop-shadow(0 10px 15px rgba(0,0,0,0.05))"/>
+
+    <!-- Header bar -->
+    <rect width="480" height="42" rx="12" fill="#F8FAFC"/>
+    <text x="24" y="26" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#1E293B">B2B Prospect Research &amp; Lead Pipeline</text>
+    <rect x="360" y="10" width="96" height="22" rx="11" fill="#EEF2FF"/>
+    <text x="408" y="25" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#2563EB" text-anchor="middle">International</text>
+
+    <!-- Metrics row -->
+    <g transform="translate(24, 60)">
+      <!-- Metric 1 -->
+      <rect width="134" height="60" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+      <text x="14" y="24" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#64748B">Market Sourced</text>
+      <text x="14" y="46" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#1E293B">Multi-Region</text>
+
+      <!-- Metric 2 -->
+      <rect x="148" width="134" height="60" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+      <text x="162" y="24" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#64748B">Channels</text>
+      <text x="162" y="46" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#2563EB">LinkedIn &amp; Web</text>
+
+      <!-- Metric 3 -->
+      <rect x="296" width="136" height="60" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+      <text x="310" y="24" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#64748B">Status</text>
+      <text x="310" y="46" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#10B981">Qualified Leads</text>
+    </g>
+
+    <!-- Spreadsheet Mockup Rows -->
+    <g transform="translate(24, 138)">
+      <rect width="432" height="110" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+      <!-- Header row -->
+      <rect width="432" height="28" rx="8" fill="#E2E8F0"/>
+      <text x="16" y="18" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#475569">Target Enterprise</text>
+      <text x="140" y="18" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#475569">Decision Maker</text>
+      <text x="260" y="18" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#475569">Geography</text>
+      <text x="360" y="18" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#475569">Stage</text>
+
+      <!-- Row 1 -->
+      <text x="16" y="46" font-family="Inter, sans-serif" font-size="10" fill="#1E293B">Global Trading Co.</text>
+      <text x="140" y="46" font-family="Inter, sans-serif" font-size="10" fill="#64748B">Procurement Head</text>
+      <text x="260" y="46" font-family="Inter, sans-serif" font-size="10" fill="#64748B">Middle East</text>
+      <rect x="356" y="34" width="62" height="18" rx="9" fill="#DCFCE7"/>
+      <text x="387" y="46" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="#166534" text-anchor="middle">Verified</text>
+
+      <!-- Row 2 -->
+      <line x1="8" y1="58" x2="424" y2="58" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="16" y="74" font-family="Inter, sans-serif" font-size="10" fill="#1E293B">Industrial Logistics</text>
+      <text x="140" y="74" font-family="Inter, sans-serif" font-size="10" fill="#64748B">Operations Dir.</text>
+      <text x="260" y="74" font-family="Inter, sans-serif" font-size="10" fill="#64748B">Europe</text>
+      <rect x="356" y="62" width="62" height="18" rx="9" fill="#DBEAFE"/>
+      <text x="387" y="74" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="#1E40AF" text-anchor="middle">Contacted</text>
+
+      <!-- Row 3 -->
+      <line x1="8" y1="86" x2="424" y2="86" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="16" y="100" font-family="Inter, sans-serif" font-size="10" fill="#1E293B">Wholesale Merchant</text>
+      <text x="140" y="100" font-family="Inter, sans-serif" font-size="10" fill="#64748B">Managing Partner</text>
+      <text x="260" y="100" font-family="Inter, sans-serif" font-size="10" fill="#64748B">Asia-Pacific</text>
+      <rect x="356" y="90" width="62" height="18" rx="9" fill="#FEF3C7"/>
+      <text x="387" y="102" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="#92400E" text-anchor="middle">Qualified</text>
+    </g>
+  </g>
+</svg>
